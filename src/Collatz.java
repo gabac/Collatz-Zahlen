@@ -38,12 +38,7 @@ public class Collatz {
 			System.out.println(number);
 		}
 
-		if (number == 1) {
-			return;
-		} else {
-			printNumbers();
-		}
-
+		printNumbers();
 	}
 	
 	public int getIteration() {
